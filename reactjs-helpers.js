@@ -13,6 +13,9 @@ function h5(config, children) { return callCreateElement("h5", arguments); }
 function h6(config, children) { return callCreateElement("h6", arguments); }
 function p(config, children) { return callCreateElement("p", arguments); }
 function a(config, children) { return callCreateElement("a", arguments); }
+function ul(config, children) { return callCreateElement("ul", arguments); }
+function ol(config, children) { return callCreateElement("ol", arguments); }
+function li(config, children) { return callCreateElement("li", arguments); }
 function i(config, children) { return callCreateElement("i", arguments); }
 function img(config, children) { return callCreateElement("img", arguments); }
 function span(config, children) { return callCreateElement("span", arguments); }
